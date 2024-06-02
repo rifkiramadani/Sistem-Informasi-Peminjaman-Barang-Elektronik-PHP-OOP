@@ -1,0 +1,59 @@
+*,
+body,
+html {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+body {
+  background-image: url(./assets/background-body.jpg);
+  background-size: cover;
+}
+
+#navbar-container {
+  background-color: skyblue;
+  height: 4.5rem;
+}
+
+#nav-link {
+  transition: ease-in-out 0.5s;
+}
+
+#nav-link:hover {
+  background-color: gray;
+  color: white;
+  border-radius: 7px;
+}
+
+/* tombol logout */
+#nav-link-logout {
+  transition: ease-in-out 0.5s;
+}
+
+#nav-link-logout:hover {
+  background-color: gray;
+  color: crimson;
+  border-radius: 7px;
+}
+
+.navbar-nav {
+  font-weight: 700;
+  gap: 15px;
+}
+
+#title-image-content {
+  width: 20rem;
+}
+
+.container {
+  margin-left: 3rem;
+  margin-top: 5rem;
+  gap: 30px;
+}
+
+.card {
+  box-shadow: 9px 12px 5px -2px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 9px 12px 5px -2px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 9px 12px 5px -2px rgba(0, 0, 0, 0.4);
+}
